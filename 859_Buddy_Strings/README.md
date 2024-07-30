@@ -1,5 +1,7 @@
 <h1>Buddy String</h1>
 
+<p>Description: <a href="https://leetcode.com/problems/buddy-strings/description/"> LeetCode Link</a></p>
+
 <p style=‘color:blue’>Data Type: String</p>
 
 <h3>What I learned</h3>	
