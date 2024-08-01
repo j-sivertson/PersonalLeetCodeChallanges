@@ -1,0 +1,24 @@
+/**
+ * @param {string} s1
+ * @param {string} s2
+ * @param {string} s3
+ * @return {number}
+ */
+var findMinimumOperations = function(s1, s2, s3) {
+    let i = 0
+    while(i < s1.length && s1[i] === s2[i] && s2[i] === s3[i]) {
+        i++
+    }
+    return i===0 ? -1 : s1.length - i + s2.length - i + s3.length - i
+    /*
+        Math Operation:
+        We first check to see if deletion can be done i===0 ? -1
+    */
+};
+
+s1 = "abc"
+s2 = "abb"
+s3 = "ab"
+
+findMinimumOperations(s1, s2, s3) // 2
+
